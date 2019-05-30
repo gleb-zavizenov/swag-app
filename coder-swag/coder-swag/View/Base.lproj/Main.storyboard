@@ -18,22 +18,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GHV-Ae-Bwa">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GHV-Ae-Bwa">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="170" id="6fF-K2-cjl" customClass="CategoryCell" customModule="coder_swag" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="170"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="203" id="6fF-K2-cjl" customClass="CategoryCell" customModule="coder_swag" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="203"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6fF-K2-cjl" id="riI-aa-LHP">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="169.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="203"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="mQQ-Iy-POD">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="169"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="203"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="203" id="GD0-Y4-VFW"/>
+                                                    </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hats" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZU-gx-JKL">
-                                                    <rect key="frame" x="117" y="67" width="180" height="36"/>
+                                                    <rect key="frame" x="117" y="83.5" width="180" height="36"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="36" id="cAD-xq-Zqg"/>
                                                         <constraint firstAttribute="width" constant="180" id="q1L-ho-NI1"/>
@@ -44,12 +47,12 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="fZU-gx-JKL" firstAttribute="centerY" secondItem="riI-aa-LHP" secondAttribute="centerY" id="525-Jd-WOj"/>
-                                                <constraint firstAttribute="bottom" secondItem="mQQ-Iy-POD" secondAttribute="bottom" constant="0.5" id="JrY-ex-nLK"/>
+                                                <constraint firstAttribute="bottom" secondItem="mQQ-Iy-POD" secondAttribute="bottom" id="JrY-ex-nLK"/>
                                                 <constraint firstAttribute="trailing" secondItem="mQQ-Iy-POD" secondAttribute="trailing" id="WsD-zY-rLR"/>
                                                 <constraint firstItem="mQQ-Iy-POD" firstAttribute="leading" secondItem="riI-aa-LHP" secondAttribute="leading" id="chf-UK-dSj"/>
                                                 <constraint firstItem="mQQ-Iy-POD" firstAttribute="top" secondItem="riI-aa-LHP" secondAttribute="top" id="k9q-Z8-XyT"/>
                                                 <constraint firstItem="fZU-gx-JKL" firstAttribute="centerX" secondItem="riI-aa-LHP" secondAttribute="centerX" id="ws0-7L-deg"/>
+                                                <constraint firstItem="fZU-gx-JKL" firstAttribute="centerY" secondItem="riI-aa-LHP" secondAttribute="centerY" id="yDs-65-lQN"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
