@@ -13,6 +13,7 @@
 		EB5AA748229F9D2400D39C1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB5AA747229F9D2400D39C1E /* Assets.xcassets */; };
 		EB5AA74B229F9D2400D39C1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB5AA749229F9D2400D39C1E /* LaunchScreen.storyboard */; };
 		EB5AA756229FA35900D39C1E /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5AA755229FA35900D39C1E /* CategoryCell.swift */; };
+		EB7CEF1322A0A6A800D23A27 /* ProductViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7CEF1222A0A6A800D23A27 /* ProductViewCell.swift */; };
 		EBE2F53C229FB4C900940AE9 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2F53B229FB4C900940AE9 /* Category.swift */; };
 		EBE2F53F229FB66800940AE9 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2F53E229FB66800940AE9 /* DataService.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		EB5AA74A229F9D2400D39C1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB5AA74C229F9D2400D39C1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB5AA755229FA35900D39C1E /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		EB7CEF1222A0A6A800D23A27 /* ProductViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewCell.swift; sourceTree = "<group>"; };
 		EBE2F53B229FB4C900940AE9 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		EBE2F53E229FB66800940AE9 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +87,7 @@
 			children = (
 				EB5AA755229FA35900D39C1E /* CategoryCell.swift */,
 				EB5AA744229F9D2300D39C1E /* Main.storyboard */,
+				EB7CEF1222A0A6A800D23A27 /* ProductViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			files = (
 				EB5AA743229F9D2300D39C1E /* CategoriesVC.swift in Sources */,
 				EB5AA741229F9D2300D39C1E /* AppDelegate.swift in Sources */,
+				EB7CEF1322A0A6A800D23A27 /* ProductViewCell.swift in Sources */,
 				EB5AA756229FA35900D39C1E /* CategoryCell.swift in Sources */,
 				EBE2F53C229FB4C900940AE9 /* Category.swift in Sources */,
 				EBE2F53F229FB66800940AE9 /* DataService.swift in Sources */,
